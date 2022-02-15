@@ -1,0 +1,27 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "title": "title1",
+      "desc": "Hello",
+      "userid": "01",
+      "date": 1605907803
+    }
+  ],
+  "users": [
+    {
+      "id": "01",
+      "title": "title1",
+      "email": "abc@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "noteId": "1",
+      "title": "first item",
+      "desc": "this is desc"
+    }
+  ]
+}

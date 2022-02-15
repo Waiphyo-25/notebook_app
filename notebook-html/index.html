@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
+  </head>
+  <body>
+    <div class="App">
+      <div class="body">
+        <!-- header -->
+        <div class="body__sidebar">
+          <div class="sidebar__menu">
+            <div class="sidebar__menu--wrap">
+              <!-- logo area start -->
+              <div class="sidebar__logo">
+                <h2 class="logo__note">NOTE</h2>
+              </div>
+              <!-- logo area end -->
+
+              <!-- sidebar area start -->
+              <nav class="sidebar__menu--nav">
+                <ul class="menu__row">
+                  <li class="menu__list">
+                    <i class="home icon"> </i>
+                    <a href="#" class="menu__link"> Home </a>
+                  </li>
+                  <li class="menu__list">
+                    <i class="search icon"></i>
+                    <a href="#" class="menu__link"> Search </a>
+                  </li>
+                  <li class="menu__list">
+                    <i class="plus circle icon"></i>
+                    <a href="#" class="menu__link"> Add Note </a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- sidebar area end -->
+
+              <!-- viewitem area  start -->
+              <div class="note__view">
+                <p class="note__view--header">Notes</p>
+                <div class="note__view--list">
+                  <div class="note_view--item">
+                    <h5>Hello World</h5>
+                    <div class="item__icons">
+                      <span class="icons__link"><i class="eye icon"></i></span>
+                      <span class="icons__link"><i class="edit icon"></i></span>
+                      <span class="icons__link"
+                        ><i class="trash alternate icon"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="note_view--item">
+                    <h5>Welcome to Myanmar</h5>
+                    <div class="item__icons">
+                      <span class="icons__link"><i class="eye icon"></i></span>
+                      <span class="icons__link"><i class="edit icon"></i></span>
+                      <span class="icons__link"
+                        ><i class="trash alternate icon"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="note_view--item">
+                    <h5>JavaScript</h5>
+                    <div class="item__icons">
+                      <span class="icons__link"><i class="eye icon"></i></span>
+                      <span class="icons__link"><i class="edit icon"></i></span>
+                      <span class="icons__link"
+                        ><i class="trash alternate icon"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="note_view--item">
+                    <h5>Angular</h5>
+                    <div class="item__icons">
+                      <span class="icons__link"><i class="eye icon"></i></span>
+                      <span class="icons__link"><i class="edit icon"></i></span>
+                      <span class="icons__link"
+                        ><i class="trash alternate icon"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="note_view--item">
+                    <h5>ReactJS</h5>
+                    <div class="item__icons">
+                      <span class="icons__link"><i class="eye icon"></i></span>
+                      <span class="icons__link"><i class="edit icon"></i></span>
+                      <span class="icons__link"
+                        ><i class="trash alternate icon"></i
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- viewitem area end -->
+            </div>
+          </div>
+        </div>
+        <!-- header end -->
+        <div class="content">
+          <!-- content start -->
+          <div class="body__content">
+            <div class="content__header">
+              <input type="date" />
+              <input type="time" />
+            </div>
+
+            <!-- text note area start -->
+            <div class="content___textarea">
+              <div class="content__textarea--wrap">
+                <input
+                  type="text"
+                  placeholder="Title...."
+                  class="input__field"
+                />
+              </div>
+              <textarea class="textarea"></textarea>
+            </div>
+            <!-- text note area end -->
+          </div>
+          <!-- content end -->
+
+          <!-- footer start -->
+          <div class="content__footer">
+            <div class="footer__left">
+              <div class="footer__note">
+                <i class="plus circle icon"></i>
+                <a href="" className> Add Note</a>
+              </div>
+            </div>
+            <div class="footer__center">
+              <span> <i class="align left icon"></i></span>
+              <span> <i class="align center icon"></i></span>
+              <span> <i class="align right icon"></i></span>
+              <span> <i class="align justify icon"></i></span>
+            </div>
+            <div class="footer__right">
+              <span><i class="trash alternate outline icon"></i></span>
+              <span><i class="edit icon"></i></span>
+              <span><i class="save icon"></i></span>
+            </div>
+          </div>
+          <!-- footer end -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
